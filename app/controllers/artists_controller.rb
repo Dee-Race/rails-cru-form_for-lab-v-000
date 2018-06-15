@@ -1,15 +1,15 @@
 class ArtistsController < ApplicationController
 
-  def create 
+  def create
 
-  end 
+  end
 
-  def update 
+  def update
 
-  end 
+  end
 
-  def show 
+  def show
 
-  end 
+  end
 
 end 
