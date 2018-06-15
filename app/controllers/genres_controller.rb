@@ -1,6 +1,6 @@
 class GenresController < ApplicationController
 
-  def new 
+  def new
     @genre = Genre.new
   end
 
@@ -19,7 +19,7 @@ class GenresController < ApplicationController
     @genre = Genre.find(params[:id])
   end
 
-  def edit 
+  def edit
     @genre = Genre.find(params[:id])
   end
 
